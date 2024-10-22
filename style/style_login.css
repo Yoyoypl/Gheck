@@ -1,0 +1,330 @@
+body {
+    /*--------------------WYGLAD----------------------*/
+
+    background-color: rgb(29, 28, 28);
+    color: white;
+    height: 100vh;
+    width: 100vw;
+
+    /*--------------------DISPLAY----------------------*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*-------------------------------------------------*/
+
+}
+
+.cale_okno {
+    /*--------------------WYGLAD----------------------*/
+
+    background-color: rgb(238, 237, 237);
+    height: 700px;
+    width: 400px;
+    border-radius: 20px;
+
+    /*--------------------DISPLAY----------------------*/
+
+    display: flex;
+
+    /*-------------------------------------------------*/
+}
+
+.cale_okno form {
+    /*--------------------WYGLAD----------------------*/
+
+    height: 100%;
+    width: 100%;
+
+    /*--------------------DISPLAY----------------------*/
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    /*-------------------------------------------------*/
+}
+
+.cale_okno .prawa_strona_z_logowaniem {
+    /*--------------------WYGLAD----------------------*/
+
+    background-color: white;
+    width: 400px;
+    height: 98%;
+    border-radius: 20px;
+
+    /*--------------------MARGINESY----------------------*/
+
+    margin-right: 9px;
+    margin-left: 9px;
+
+    /*--------------------DISPLAY----------------------*/
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    /*-------------------------------------------------*/
+
+}
+
+.cale_okno .prawa_strona_z_logowaniem .napis_log_in {
+    /*--------------------WYGLAD----------------------*/
+
+    color: black;
+    font-size: 30px;
+
+    /*--------------------MARGINESY----------------------*/
+
+    margin: 1px;
+    margin-top: 40px;
+    font-family: "Bebas Neue", sans-serif;
+
+    /*--------------------DISPLAY----------------------*/
+
+    text-align: center;
+
+    /*-------------------------------------------------*/
+}
+
+
+.cale_okno .prawa_strona_z_logowaniem .napis_welcome {
+    /*--------------------WYGLAD----------------------*/
+
+    color: grey;
+    font-size: 15px;
+    font-family: "Bebas Neue", sans-serif;
+
+    /*--------------------MARGINESY----------------------*/
+
+    padding: 0;
+    margin: 0;
+
+    /*-------------------------------------------------*/
+}
+
+.cale_okno .prawa_strona_z_logowaniem .wejscie_loginu {
+    /*--------------------WYGLAD----------------------*/
+
+    color: black;
+    font-size: 15px;
+    font-family: "Bebas Neue", sans-serif;
+
+    /*--------------------MARGINESY----------------------*/
+
+    margin-top: 100px;
+
+    /*-------------------------------------------------*/
+
+}
+
+.cale_okno .prawa_strona_z_logowaniem .wejscie_hasla {
+    /*--------------------WYGLAD----------------------*/
+
+    color: black;
+    font-size: 15px;
+    font-family: "Bebas Neue", sans-serif;
+
+    /*--------------------MARGINESY----------------------*/
+
+    margin-top: 20px;
+
+    /*-------------------------------------------------*/
+}
+
+.cale_okno .prawa_strona_z_logowaniem .przycisk_log_in {
+    /*--------------------WYGLAD----------------------*/
+
+    background-color: rgb(32, 45, 219);
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    border: 0;
+
+    /*--------------------MARGINESY----------------------*/
+
+    margin-top: 25px;
+
+    /*-------------------------------------------------*/
+}
+
+.cale_okno .prawa_strona_z_logowaniem .przycisk_log_in:hover {
+    /*--------------------WYGLAD----------------------*/
+
+    background-color: rgb(98, 88, 240);
+
+    /*-------------------------------------------------*/
+}
+
+.cale_okno .prawa_strona_z_logowaniem .wejscie_loginu label {
+    /*--------------------WYGLAD----------------------*/
+
+    color: rgb(32, 45, 219);
+    font-family: "Bebas Neue", sans-serif;
+
+    /*---------------------POSITION----------------------------*/
+
+    position: absolute;
+    top: 225px;
+    left: 70px;
+    transform: translateY(-10%);
+
+    /*----------------------TRANSITION---------------------------*/
+
+    transition: 0.1s;
+
+    /*-------------------------------------------------*/
+
+}
+
+.cale_okno .prawa_strona_z_logowaniem .wejscie_hasla label {
+    /*--------------------WYGLAD----------------------*/
+
+    color: rgb(32, 45, 219);
+    font-family: "Bebas Neue", sans-serif;
+
+    /*---------------------POSITION----------------------------*/
+
+    position: absolute;
+    top: 275px;
+    left: 70px;
+    transform: translateY(-10%);
+
+    /*----------------------TRANSITION---------------------------*/
+
+    transition: 0.1s;
+
+    /*-------------------------------------------------*/
+
+}
+
+.cale_okno .prawa_strona_z_logowaniem .wejscie_loginu input,
+.cale_okno .prawa_strona_z_logowaniem .wejscie_hasla input {
+    /*--------------------WYGLAD----------------------*/
+
+    width: 250px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px rgb(32, 45, 219);
+    background-color: transparent;
+
+    /*-------------------------------------------------*/
+}
+
+.cale_okno .prawa_strona_z_logowaniem .wejscie_loginu input:focus+label,
+.cale_okno .prawa_strona_z_logowaniem .wejscie_loginu input:valid+label {
+    /*--------------------WYGLAD----------------------*/
+
+    font-size: 10px;
+    background-color: white;
+
+    /*--------------------MARGINESY----------------------*/
+
+    padding: 0 5px 0 5px;
+
+    /*---------------------POSITION----------------------------*/
+
+    top: 215px;
+
+    /*-------------------------------------------------*/
+
+}
+
+.cale_okno .prawa_strona_z_logowaniem .wejscie_hasla input:focus+label,
+.cale_okno .prawa_strona_z_logowaniem .wejscie_hasla input:valid+label {
+    /*--------------------WYGLAD----------------------*/
+
+    font-size: 10px;
+    background-color: white;
+
+
+    /*--------------------MARGINESY----------------------*/
+
+    padding: 0 5px 0 5px;
+
+    /*---------------------POSITION----------------------------*/
+
+    top: 265px;
+
+    /*-------------------------------------------------*/
+}
+
+
+
+
+
+.cale_okno .prawa_strona_z_logowaniem .checkbox_forgot_password {
+    /*--------------------MARGINESY----------------------*/
+
+    margin-top: 10px;
+    margin-left: 130px;
+
+    /*-------------------------------------------------*/
+
+}
+
+.cale_okno .prawa_strona_z_logowaniem .checkbox_forgot_password a {
+    /*--------------------WYGLAD----------------------*/
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(90, 89, 89);
+    font-family: "Bebas Neue", sans-serif;
+    /*-------------------------------------------------*/
+}
+
+.cale_okno .prawa_strona_z_logowaniem .checkbox_forgot_password a:hover {
+    /*--------------------WYGLAD----------------------*/
+
+    color: rgb(158, 158, 158);
+
+    /*-------------------------------------------------*/
+}
+
+
+.cale_okno .prawa_strona_z_logowaniem .change_on_sign {
+    /*--------------------DISPLAY----------------------*/
+
+    flex-direction: row;
+    display: flex;
+
+    /*--------------------MARGINESY----------------------*/
+
+    margin-top: 20px;
+
+    /*--------------------WYGLAD----------------------*/
+
+    color: rgb(90, 89, 89);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 12px;
+
+    /*-------------------------------------------------*/
+
+}
+
+.cale_okno .prawa_strona_z_logowaniem .change_on_sign a {
+    /*--------------------WYGLAD----------------------*/
+
+    text-decoration: none;
+    color: black;
+
+    /*--------------------MARGINESY----------------------*/
+
+    margin-top: 12px;
+    margin-left: 5px;
+
+    /*-------------------------------------------------*/
+}
+
+
+.cale_okno .prawa_strona_z_logowaniem .change_on_sign a:hover {
+    /*--------------------WYGLAD----------------------*/
+
+    color: rgb(32, 45, 219);
+
+    /*-------------------------------------------------*/
+}

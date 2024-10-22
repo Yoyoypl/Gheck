@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cale_okno {
+    background-color: rgb(238, 237, 237);
+    height: 700px;
+    width: 400px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.cale_okno form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.cale_okno .zawartosc_okna {
+    margin-top: 0px;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    height: 98%;
+    margin-left: 9px;
+    margin-right: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.cale_okno .zawartosc_okna .naglowek h1 {
+    padding: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 23px;
+}
+
+.cale_okno .zawartosc_okna .rozpiska p {
+    margin: 20px;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 14px;
+}
+
+
+
+.cale_okno .zawartosc_okna .wejscie_e_mail input {
+    outline: none;
+    border: none;
+    border-bottom: solid 1px rgb(32, 45, 219);
+    margin-top: 50px;
+    width: 250px;
+    height: 25px;
+}
+
+.cale_okno .zawartosc_okna .wejscie_e_mail label {
+    color: rgb(32, 45, 219);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 240px;
+    left: 85px;
+    transform: translateY(-50%);
+
+    transition: 0.1s;
+
+}
+
+.cale_okno .zawartosc_okna .wejscie_e_mail input:focus+label,
+.cale_okno .zawartosc_okna .wejscie_e_mail input:valid+label {
+    top: 225px;
+    font-size: 10px;
+}
+
+.cale_okno .zawartosc_okna .przcisk_send {
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.cale_okno .zawartosc_okna .przcisk_send input {
+    background-color: rgb(32, 45, 219);
+    color: white;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.cale_okno .zawartosc_okna .change p {
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(90, 89, 89);
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
+.cale_okno .zawartosc_okna .change a {
+    text-decoration: none;
+    color: black
+}
+
+.cale_okno .zawartosc_okna .change a:hover {
+    color: rgb(32, 45, 219);
+}
